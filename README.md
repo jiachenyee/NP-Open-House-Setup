@@ -2,9 +2,8 @@
 
 ## Setup Instructions
 ### Friction setup
-1. Start up the mac
-2. Click on the Xcode icon from the dock
-3. Give it a couple of minutes and everything should automatically start and open up
+1. Start up the iMac
+2. Give it a couple of minutes and everything should automatically start and open up
 
 ### When someone wants to see it
 1. Launch Friction on the iPad
