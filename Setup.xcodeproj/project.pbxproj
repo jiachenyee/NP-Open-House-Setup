@@ -11,6 +11,7 @@
 		32F82FCC27833D88002FE2CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F82FCB27833D88002FE2CD /* ContentView.swift */; };
 		32F82FCE27833D89002FE2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F82FCD27833D89002FE2CD /* Assets.xcassets */; };
 		32F82FD127833D89002FE2CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F82FD027833D89002FE2CD /* Preview Assets.xcassets */; };
+		32F82FD927833EBB002FE2CD /* SetupAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F82FD827833EBB002FE2CD /* SetupAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		32F82FCD27833D89002FE2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F82FD027833D89002FE2CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32F82FD227833D89002FE2CD /* Setup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Setup.entitlements; sourceTree = "<group>"; };
+		32F82FD827833EBB002FE2CD /* SetupAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupAction.swift; sourceTree = "<group>"; };
+		32F82FDA2783CF84002FE2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +55,10 @@
 		32F82FC827833D88002FE2CD /* Setup */ = {
 			isa = PBXGroup;
 			children = (
+				32F82FDA2783CF84002FE2CD /* Info.plist */,
 				32F82FC927833D88002FE2CD /* SetupApp.swift */,
 				32F82FCB27833D88002FE2CD /* ContentView.swift */,
+				32F82FD827833EBB002FE2CD /* SetupAction.swift */,
 				32F82FCD27833D89002FE2CD /* Assets.xcassets */,
 				32F82FD227833D89002FE2CD /* Setup.entitlements */,
 				32F82FCF27833D89002FE2CD /* Preview Content */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F82FD927833EBB002FE2CD /* SetupAction.swift in Sources */,
 				32F82FCC27833D88002FE2CD /* ContentView.swift in Sources */,
 				32F82FCA27833D88002FE2CD /* SetupApp.swift in Sources */,
 			);
@@ -276,11 +282,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Setup/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinkertanker.Setup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,11 +311,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Setup/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinkertanker.Setup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
